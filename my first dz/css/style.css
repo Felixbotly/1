@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 1010px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    display: inline-block;
+    margin: 60px auto 60px 50px;
+}
+.text{
+    display: inline-block;
+    margin-right: 85px;
+    font-family: 'arial', sans-serif;
+}
+.first{
+    font-weight: 700;
+    font-size: 22.5px;
+    margin-top: 75px;
+}
+.second{
+    font-size: 15px;
+    margin-top: 45px;
+    width: 400px;
+}
+.how{
+    font-size: 15px;
+    margin-top: 55px;
+}
+.mone{
+    font-size: 30px;
+    margin-top: 27px;
+    margin-bottom: 60px;
+}
+button{
+    width: 250px;
+    height: 50px;
+    background-color: #ec744a;
+    font-size: 18px;
+}
